@@ -6,7 +6,7 @@ import type { User, Post } from "@/services/dataService";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Grid3X3, Bookmark } from "lucide-react";
+import { Grid3X3, Bookmark, Heart, MessageCircle } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
 const Profile: React.FC = () => {
